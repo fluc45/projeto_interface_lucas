@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="Stylesheet" type="text/css" href="../style.css" />
+</head>
+
+<body>
+    <a href="../index.html" target="_blank">
+        Acesse a página principal
+    </a>
+    <br />
+    <br />
+    <!--Formulário-->
+    <h2 align="center">Formulário</h2>
+    <form action="arquivo.sql" method="post">
+        <p>Você irá para a minha apresentação de teatro?<br />
+            <br />
+            <input type="radio" name="confirmacao" value="1" /> SIM =D
+            <br />
+            <input type="radio" name="confirmacao" value="0" /> Não =( <br /><br /><br />
+        </p>
+
+        <p>Qual a sua relação com o ator lindo e maravilhoso Lucas?<br /><br />
+            <input type="checkbox" name="relacao" value="0" /> Professor<br />
+            <input type="checkbox" name="relacao" value="1" /> Amigo<br />
+            <input type="checkbox" name="relacao" value="2" /> Inimigo<br />
+            <input type="checkbox" name="relacao" value="3" /> Conhecido<br />
+            <input type="checkbox" name="relacao" value="4" /> Familiar<br />
+            <input type="checkbox" name="relacao" value="5" /> Outro<br /><br /><br />
+        </p>
+
+        Vamos treinar para preencher os campos do ingresso no Sympla!
+        <fieldset>
+            <legend align="center">Dados Pessoais</legend><br />
+            <label>Nome <input type="text" /></label><br /><br />
+            <label>Sobrenome <input type="text" /></label><br /><br />
+            <label>E-mail <input type="email" /></label><br /><br />
+            <label>Confirmação do e-mail <input type="email" /></label><br /><br />
+        </fieldset><br /><br />
+        <fieldset>
+            <legend align="center">Dados do Cartão</legend>
+            <h1 class="aviso">É BRINCADEIRA, NÃO PREENCHE ISSO</h1>
+            <label>Número do cartão <input type="text" placeholder="0000 0000 0000 0000" /></label> <br />
+            <label>Data de validade <input type="text" placeholder="MM/AA" /></label> <br />
+            <label>Código de segurança <input type="text" placeholder="000" /></label> <br />
+        </fieldset><br />
+        <br />
+        <br />
+        <input type="reset" />
+        <input type="submit" />
+        <br />
+        <br />
+        </fieldset>
+    </form>
+</body>
+
+</html>
