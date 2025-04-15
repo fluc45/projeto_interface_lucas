@@ -1,4 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 body {
-    background-color:darkslategray;
+    background-color: darkslategray;
     color: azure;
+    font-family: "Roboto Flex";
+}
+
+.aviso {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+form {
+    font-family: "Atma";
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
